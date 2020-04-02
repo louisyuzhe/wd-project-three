@@ -21,12 +21,35 @@ img {
   max-width: 100%;
   width: 8em; /* 144px / 18px = 8em */
 }
+
+h1,
+h2 {
+  font-size: 2em; /* 36px / 18px = 2em */
+  font-weight: bold;
+  font-style: italic;
+  margin: 0 auto 1em auto; /* 18px / 18px = 1em */
+}
+
 /* Layout Styles */
+
 
 /* Module styles */
 
+/* Navigation Styles */
+.nav a {
+  background: #00ACEE;
+  display: block;
+  line-height: 0;
+  outline: 0;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  padding: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+
 /* State styles */
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 540px) {
   .nav {
     display: flex;
     flex-flow: row nowrap;
