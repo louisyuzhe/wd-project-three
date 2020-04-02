@@ -13,9 +13,14 @@ html {
   background-color: black; /* black color contrast with every coor on this page */
   color: white;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.125em; /* 18px / 16px = 1.125em */
+  font-size: 1.125em; /* 252px / 18px = 1.125em */
 }
 
+img {
+  display: inline-block;
+  max-width: 100%;
+  width: 8em; /* 144px / 18px = 8em */
+}
 /* Layout Styles */
 
 /* Module styles */
