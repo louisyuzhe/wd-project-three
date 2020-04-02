@@ -26,3 +26,18 @@ img {
 /* Module styles */
 
 /* State styles */
+@media screen and (min-width: 400px) {
+  .nav {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: -6px;
+    margin-right: 6px;
+  }
+  .nav li {
+    flex: 1 0 auto;
+    margin-left: 12px;
+  }
+  .nav a {
+    border-radius: 6px;
+  }
+}
