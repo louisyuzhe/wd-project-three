@@ -30,8 +30,24 @@ h2 {
   margin: 0 auto 1em auto; /* 18px / 18px = 1em */
 }
 
+h2{
+  width: 100vw;
+}
 /* Layout Styles */
+#summary{
+  display: flex;
+}
 
+.intro{
+  background: #00ACEE;
+  box-sizing: border-box;
+  margin: 1em;
+  text-align: center;
+}
+
+.intro img{
+  width: 70vw;
+}
 
 /* Module styles */
 
@@ -63,4 +79,5 @@ h2 {
   .nav a {
     border-radius: 6px;
   }
+
 }
