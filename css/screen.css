@@ -13,7 +13,7 @@ html {
   background-color: black; /* black color contrast with every coor on this page */
   color: white;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.125em; /* 252px / 18px = 1.125em */
+  font-size: 1.125em; /* 18px / 16px = 1.125em */
   text-align: center;
 }
 
@@ -24,13 +24,14 @@ img {
 
 h1,
 h2 {
-  font-size: 2em; /* 36px / 18px = 2em */
+  font-size: 3em; /* 36px / 18px = 2em */
   font-weight: bold;
   font-style: italic;
   margin: 0 auto 1em auto; /* 18px / 18px = 1em */
 }
 
 h3{
+  font-size: 2em; /* 36px / 18px = 2em */
   padding-bottom: 1em;
 }
 section {
@@ -47,6 +48,7 @@ p {
 
 article {
   padding: 1em;
+  margin: 1em;
 }
 
 /* Layout Styles */
