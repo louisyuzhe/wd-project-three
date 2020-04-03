@@ -31,11 +31,18 @@ h2 {
 }
 
 h2{
-  width: 100vw;
+  text-align: center;
 }
+
 /* Layout Styles */
 #summary{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 2vw;
+}
+
+#summary h2{
+  grid-column: 1 / 4; /* Span h2 over all columns */
 }
 
 .intro{
@@ -46,7 +53,7 @@ h2{
 }
 
 .intro img{
-  width: 70vw;
+  width: 20vw;
 }
 
 /* Module styles */
