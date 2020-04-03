@@ -30,16 +30,23 @@ h2 {
   margin: 0 auto 1em auto; /* 18px / 18px = 1em */
 }
 
-h2 {
-  text-align: center;
+h3{
+  padding-bottom: 1em;
 }
-
 section {
   display: grid;
 }
 
 small {
   display: block;
+}
+
+p {
+  text-align: left;
+}
+
+article {
+  padding: 1em;
 }
 
 /* Layout Styles */
@@ -125,6 +132,7 @@ footer img {
   #summary h2 {
     grid-column: 1 / 4; /* Span h2 over all columns */
   }
+
 }
 
 footer img:hover {
