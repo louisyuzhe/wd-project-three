@@ -20,7 +20,6 @@ html {
 img {
   display: inline-block;
   max-width: 100%;
-  width: 8em; /* 144px / 18px = 8em */
 }
 
 h1,
@@ -60,6 +59,9 @@ footer figure {
   padding: 1.125em; /* 20.25px / 18px = 1.125em */
 }
 
+footer img {
+  width: 8em; /* 144px / 18px = 8em */
+}
 /* Navigation Styles */
 .nav a {
   background: #00ACEE;
