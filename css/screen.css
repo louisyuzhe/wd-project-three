@@ -94,3 +94,8 @@ section {
   }
 
 }
+
+footer img:hover,
+#navi-bar img:hover {
+  opacity: 0.5;
+}
