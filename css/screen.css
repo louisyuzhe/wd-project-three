@@ -43,10 +43,12 @@ small {
 }
 
 p {
+  color: black;
   text-align: left;
 }
 
 article {
+  background-color: #E1E8ED;
   padding: 1em;
   margin: 1em;
 }
@@ -71,6 +73,12 @@ footer figure {
 footer img {
   width: 8em; /* 144px / 18px = 8em */
 }
+
+.intern-details h3{
+  color: #00ACEE;
+  font-weight: bold;
+}
+
 /* Navigation Styles */
 .nav a {
   background: #00ACEE;
