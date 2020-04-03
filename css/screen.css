@@ -34,9 +34,12 @@ h2{
   text-align: center;
 }
 
+section {
+    display: grid;
+}
+
 /* Layout Styles */
 #summary{
-  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 2vw;
 }
