@@ -92,6 +92,22 @@ header p {
   color: white;
 }
 
+.pInfo p{
+  text-align: center;
+}
+
+.sdc-details figure{
+  border: .3em solid black; /* 9px / 18px = .5em */
+  background-color: white;
+  padding: 1em;
+  padding-bottom: 2em;
+  margin: .5em;
+}
+
+.sdc-details figcaption{
+  color: black;
+}
+
 /* Navigation Styles */
 .nav a {
   background: #00ACEE;
@@ -152,17 +168,25 @@ header p {
   #contactInfo h2 {
     grid-column: 1 / 3; /* Span h2 over all columns */
   }
+
+  /* Competition page */
+  .ssh-details p {
+    padding: 1em;
+    padding-top: 0;
+  }
 }
 
 /* 1080px || 1080 / 16 = 67.5em */
 @media screen and (min-width: 67.5em) {
-  #summary {
+  #summary,
+  .ssh-details {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     justify-content: center;
   }
-  #summary h2 {
+  #summary h2,
+  .ssh-details h3 {
     grid-column: 1 / 4; /* Span h2 over all columns */
   }
 
@@ -170,8 +194,23 @@ header p {
     font-size: 1.35em; /* 24.3px / 18px = 1.35em */
   }
 
-}
+  .pInfo p{
+    font-size: 1.5em;
+    padding: .5em;
+  }
 
+  /* Competition page */
+  .sdc-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    justify-content: center;
+  }
+
+  .sdc-details h3 {
+    grid-column: 1 / 3; /* Span h2 over all columns */
+  }
+}
 
 footer img:hover {
   opacity: 0.5;
