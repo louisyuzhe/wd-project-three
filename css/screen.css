@@ -59,6 +59,9 @@ article {
   box-sizing: border-box;
   margin: 1em;
 }
+ .intern-details {
+   border: .5em solid white; /* 9px / 18px = .5em */
+ }
 
 /* Module styles */
 .intro img {
@@ -77,6 +80,10 @@ footer img {
 .intern-details h3{
   color: #00ACEE;
   font-weight: bold;
+}
+
+header p {
+  color: white;
 }
 
 /* Navigation Styles */
@@ -144,7 +151,11 @@ footer img {
     grid-column: 1 / 4; /* Span h2 over all columns */
   }
 
+  #internship {
+    font-size: 1.35em; /* 24.3px / 18px = 1.35em */
+  }
 }
+
 
 footer img:hover {
   opacity: 0.5;
