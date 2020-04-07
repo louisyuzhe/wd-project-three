@@ -93,7 +93,7 @@ header p {
   color: white;
 }
 
-.pInfo p{
+.pInfo p {
   text-align: center;
 }
 
@@ -191,7 +191,7 @@ header p {
     grid-column: 1 / 4; /* Span h2 over all columns */
   }
 
-  #internship p{
+  #internship p {
     font-size: 1.35em; /* 24.3px / 18px = 1.35em */
   }
 
