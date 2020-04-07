@@ -28,6 +28,7 @@ h2 {
   font-weight: bold;
   font-style: italic;
   margin: 0 auto 1em auto; /* 18px / 18px = 1em */
+  padding-top: .5em;
 }
 
 h3{
