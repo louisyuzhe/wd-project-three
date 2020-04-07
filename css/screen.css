@@ -112,8 +112,9 @@ header p {
 /* Navigation Styles */
 .nav a {
   background: #00ACEE;
+  border-radius: 6px;
   color: white;
-  display: block;
+  display: inline-block;
   line-height: 0;
   outline: 0;
   margin-bottom: 6px;
@@ -121,6 +122,7 @@ header p {
   padding: 18px;
   text-align: center;
   text-decoration: none;
+  width: 50%;
 }
 
 /* State styles */
@@ -137,7 +139,8 @@ header p {
     margin-left: 12px;
   }
   .nav a {
-    border-radius: 6px;
+    display: block;
+    width: auto;
   }
 
   /* main page */
