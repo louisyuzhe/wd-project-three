@@ -24,7 +24,7 @@ img {
 
 h1,
 h2 {
-  font-size: 3em; /* 36px / 18px = 2em */
+  font-size: 3em; /* 54px / 18px = 3em */
   font-weight: bold;
   font-style: italic;
   margin: 0 auto 1em auto; /* 18px / 18px = 1em */
@@ -98,7 +98,7 @@ header p {
 }
 
 .sdc-details figure{
-  border: .3em solid black; /* 9px / 18px = .5em */
+  border: .3em solid black; /* 5.4px / 18px = .3em */
   background-color: white;
   padding: 1em;
   padding-bottom: 2em;
@@ -112,14 +112,14 @@ header p {
 /* Navigation Styles */
 .nav a {
   background: #00ACEE;
-  border-radius: 6px;
+  border-radius: 0.333333333em; /* 6px / 18px = 0.333333333em */
   color: white;
   display: inline-block;
   line-height: 0;
   outline: 0;
-  margin-bottom: 6px;
-  margin-top: 6px;
-  padding: 18px;
+  margin-bottom: 0.333333333em; /* 6px / 18px = 0.333333333em */
+  margin-top: 0.333333333em; /* 6px / 18px = 0.333333333em */
+  padding: 1em; /* 18px / 18px = 1em */
   text-align: center;
   text-decoration: none;
   width: 50%;
@@ -131,12 +131,12 @@ header p {
   .nav {
     display: flex;
     flex-flow: row nowrap;
-    margin-left: -6px;
-    margin-right: 6px;
+    margin-left: -0.333333333em; /* 6px / 18px = 0.333333333em */
+    margin-right: 0.333333333em; /* 6px / 18px = 0.333333333em */
   }
   .nav li {
     flex: 1 0 auto;
-    margin-left: 12px;
+    margin-left: 0.666666667em; /* 12px / 18px = 0.666666667em */
   }
   .nav a {
     display: block;
