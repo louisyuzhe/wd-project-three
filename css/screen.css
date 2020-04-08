@@ -182,6 +182,7 @@ header p {
 
 /* 1080px || 1080 / 16 = 67.5em */
 @media screen and (min-width: 67.5em) {
+  /* Competition page */
   #summary,
   .ssh-details {
     display: grid;
@@ -202,8 +203,6 @@ header p {
     font-size: 1.5em;
     padding: .5em;
   }
-
-  /* Competition page */
   .sdc-details {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
