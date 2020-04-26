@@ -29,6 +29,7 @@ h2 {
   font-style: italic;
   margin: 0 auto 1em auto; /* 18px / 18px = 1em */
   padding-top: .5em;
+  overflow-wrap: break-word;
 }
 
 h3{
@@ -85,7 +86,7 @@ footer img {
 }
 
 .intern-details h3{
-  color: #00ACEE;
+  color: #0085ee;
   font-weight: bold;
 }
 
@@ -107,6 +108,11 @@ header p {
 
 .sdc-details figcaption{
   color: black;
+}
+#summary h2 {
+  width: 80vw;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /* Navigation Styles */
