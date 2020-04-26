@@ -47,6 +47,7 @@ small {
 p {
   color: black;
   text-align: left;
+  line-height: 120%;
 }
 
 article {
@@ -201,14 +202,10 @@ header p {
     grid-column: 1 / 4; /* Span h2 over all columns */
   }
 
-  #internship p {
+  p {
     font-size: 1.35em; /* 24.3px / 18px = 1.35em */
   }
 
-  .pInfo p{
-    font-size: 1.5em;
-    padding: .5em;
-  }
   .sdc-details {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
